@@ -10,7 +10,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.7.0",
     "@strapi/plugin-i18n": "4.12.1",
     "@strapi/plugin-users-permissions": "4.12.1",
     "@strapi/provider-email-sendgrid": "^4.12.1",
@@ -26,7 +25,7 @@
     "uuid": "6e86b950-54e1-46dc-849d-cb323a58cdd0"
   },
   "engines": {
-    "node": ">=14.19.1 <=20.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": "6.x.x"
   },
   "license": "MIT"
